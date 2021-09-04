@@ -30,11 +30,6 @@ throw Error('Unable to start replication, handler id undefined.');
 }
 let replicationResponse = {
 status: REPLICATION_STATUSES.pending
-
-1
-
-origintrail.io
-
 }
 let retries = 0;
 do {
