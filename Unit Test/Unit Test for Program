@@ -1,0 +1,19 @@
+Unit TestCase:
+
+1. Validate if status is not Pending , initialized or Failed the code should run as expected
+2. Validate if Retries exceed 5 the code should run as expected
+3. Validate if the code is running for 5 times for pending or initialised state
+4. Validate if the code is giving error for status is failed
+5. Validate if the replicationHandlerId is a non string value
+6. Validate if endpoint is a non string value
+7. validate if the endpoint doesn't have any value
+8. Validate if webClient is empty
+9. Validate if the expected response is not in data : {} , status: String format
+10. Validate if the replicationHandlerId id string value
+11. Validate if endpoint is string value
+12. Validate if webClient.get(endpoint) throws an error
+13. Validate if sleepForMilliseconds sends a promise response
+14. Validate if the sleepForMilliseconds wait for the expected time
+15. Validate if the replicateResponse.data is return the valid value
+16. Validate what is returned when replicateResponse contains error the replicateResponse.data
+16. Validate what is returned when replicateResponse contains different format response the replicateResponse.data

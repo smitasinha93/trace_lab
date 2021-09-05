@@ -1,0 +1,69 @@
+Scenario: Verify that the Registration form contains Username, Email Address, Password, Confirm Password , term and condition checkbox and text,  Etherscan newsletter checkbox and text, captcha , create account and already have account
+    TestCase 1: Validate the title is displayed as Register a New Account
+    TestCase 2: Validate if Username is displayed
+    TestCase 3: Validate if Email address is displayed
+    TestCase 4: Validate if the password and conform password is displayed
+    TestCase 5: Validate if the term and condition checkbox and text is displayed
+    TestCase 6: Validate if the Etherscan newsletter checkbox and text is displayed
+    TestCase 7: Validate if the captcha is displayed
+    TestCase 8: Validate if already have a account sign option is displayed
+    TestCase 9: Validate if create a account button is displayed
+
+Scenario: Verify that tab functionality is working properly or not
+    TestCase 1: Validate if we are in a placeholder and click on tab it goes to the next place holder
+
+Scenario: Verify that Enter/Tab key works as a substitute for the Submit button
+    TestCase 1: Validate if after the putting all the information enter button is submitting the form
+    TestCase 2: Validate if without entering the information the enter button is submitting and giving error for all the required field
+
+Scenario: Verify that all the fields such as Username, email address, Password and other fields have a valid placeholder
+    TestCase 1: Validate textbox/placeholder is getting displayed for username
+    TestCase 2: Validate textbox/placeholder is getting displayed for password and confirm password
+    TestCase 3: Validate textbox/placeholder is getting displayed for email address
+    TestCase 4: Validate checkbox is getting displayed for terms and condition
+
+Scenario: Verify that clicking on submit button after entering all the mandatory fields, submits the data to the server
+    TestCase 1: Validate user should Register by filling all the required fields
+    TestCase 2: Validate if the user is able to login with the newly created account
+
+Scenario: Verify that entering blank spaces on mandatory fields lead to validation error
+    TestCase 1: validate if the blank space is not accepted in username placeholder
+    TestCase 2: validate if the blank space is not accepted in email address placeholder
+    TestCase 3: validate if the blank space is not accepted in password and confirm password placeholder
+
+Scenario: verify username satisfy the condition "Username has to be from 5 to 30 characters in length, only alphanumeric characters allowed."
+    TestCase 1: validate if the username is giving error for symbols($#%^)
+    TestCase 2: Validate if the username is giving error for length less than 5
+    TestCase 3: Validate if the username is not allowing more than 30 character
+    TestCase 4: validate if the username is not giving error for valid username provided
+
+Scenario: Verify that the validation of email field by entering incorrect email id
+    TestCase 1: Validate the Email text field that has an Email address without @ symbol.
+    TestCase 2: Validate the Email text field that has a random string instead of a real email.
+    TestCase 3: Validate the Email text field that has @ symbol written in words.
+    TestCase 4: Validate the Email text field that has a missing dot in the email address
+
+Scenario: Verify that the “terms and conditions” checkbox is unselected by default
+    TestCase 1: Validate if the page is refreshed the checkbox is not getting selected by default
+    TestCase 2: Validate if we open the site for creating new account the checkbox is not getting selected by default
+    TestCase 3: Validate if user is able to select deselect the checkbox
+
+Scenario: Verify that the validation message is displayed when clicking on submit button without selecting “terms and conditions” checkbox
+    TestCase 1: Validate if the site is giving error when information is submitted by not checking terms and condition
+
+Scenario: Verify that the password is in encrypted form when entered
+
+Scenario: Verify whether the password and confirm password are same or not
+
+Scenario: Verify the required fields by not filling any data
+    TestCase 1: validate the required fields by not filling any data
+    TestCase 2: Validate user should Register by filling all the required fields
+    TestCase 3: Verify if blank spaces are passed in required fields.
+
+Scenario: Verify the captcha is working as expected
+
+Scenario: Verify if the password required rules are not satisfied in the password
+    TestCase 1: validate the password limit when enter value less than min
+    TestCase 2: Validate the password limit when enter value greater than max
+    TestCase 3: Validate the password when passing only numbers
+    TestCase 4: Check the password when passing valid data

@@ -1,0 +1,27 @@
+1. Tool and Language: Selenium , Serenity , BDD framework , JAVA, Gradle
+2. Why BDD (Behaviour Driven Development)
+        -> it uses simple english language to write testcase so any non technical person can also add test
+        -> it has a behaviour based testcase which helps in recognising all the issue for registration form or any kind of testing
+        -> it is easy to maintain
+        -> Clarity. Scenarios focus on the expected behaviors of the product
+        -> Writing scenarios from the beginning enforces quality-first and test-first mindsets
+3. Why Selenium
+        -> It is an open source and have a lot of testing coverage
+        -> It has provision to add libraries and use a lot of different testing skills(Skuli, Apache, ETC)
+
+4. Why Gradle
+        -> It is faster build management tool than maven
+        -> It has less complicated config files
+        -> It provides high performance and scalable builds
+        -> Gradle integration process is quite easier
+
+5. Why Serenity
+        -> It has a very organised set of config and management files
+        -> It has it's own reporting format inbuilt
+        -> You can use the tool along with JUnit to quickly write clean and maintainable acceptable criteria or integrate it with WebDriver to test web applications in Selenium
+
+6. Automation Plan
+        -> Cover all the scenarios in BDD framework according to the requirements
+        -> For Captcha: a. By disabling the Captcha in the testing environment
+                        b. Adding a hook to click the Captcha checkbox
+                        c. By adding a delay to the Webdriver and manually solve Captcha while testing

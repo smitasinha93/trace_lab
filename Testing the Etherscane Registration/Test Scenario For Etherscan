@@ -1,0 +1,15 @@
+1. Verify that the Registration form contains Username, Email Address, Password, Confirm Password , term and condition checkbox and text,  Etherscan newsletter checkbox and text, captcha , create account and already have account
+2. Verify that tab functionality is working properly or not
+3. Verify that Enter key works as a substitute for the Submit button
+4. Verify that all the fields such as Username, email address, Password and other fields have a valid placeholder
+5. Verify that clicking on submit button after entering all the mandatory fields, submits the data to the server
+6. Verify that entering blank spaces on mandatory fields lead to validation error
+7. verify username satisfy the condition "Username has to be from 5 to 30 characters in length, only alphanumeric characters allowed."
+8. Verify that the validation of email field by entering incorrect email id
+9. Verify that the “terms and conditions” checkbox is unselected by default
+10. Verify that the validation message is displayed when clicking on submit button without selecting “terms and conditions” checkbox
+11. Verify that the password is in encrypted form when entered
+12. Verify whether the password and confirm password are same or not
+13. Verify the required fields by not filling any data
+14. Verify the captcha is working as expected
+15. Verify if the password required rules are not satisfied in the password
